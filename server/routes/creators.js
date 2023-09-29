@@ -1,19 +1,19 @@
-import express from "express";
-import path from "path";
-import { fileURLToPath } from "url";
-import data from "../data/creators.js";
+import express from 'express'
+import path from 'path'
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import { fileURLToPath } from 'url'
 
-const router = express.Router();
+import getGifts from '../controller/creator.js'
 
-router.get("/", (req, res) => {
-  res.status(200).json(data);
-});
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
-router.get("/:giftId", (req, res) => {
-  res.status(200).sendFile(path.resolve(__dirname, "../public/careers.html"));
-});
+const router = express.Router()
 
-export default router;
+router.get('/', getGifts.getGifts)
+
+router.get('/:giftId', (req, res) => {
+  res.status(200).sendFile(path.resolve(__dirname, '../public/careers.html'))
+})
+
+export default router
