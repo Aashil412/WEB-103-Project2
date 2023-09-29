@@ -1,10 +1,10 @@
-# WEB103 Project 1 - Creators
+# WEB103 Project 2 - Creators
 
 Submitted by: Aashil Ahmad
 
 About this web app: Displaying a list of items to sell and have descriptions about it
 
-Time spent: 5 hours
+Time spent: 1 hours
 
 ## Required Features
 
@@ -12,31 +12,26 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is appropriately styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+  - [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
-- [x] The web app displays items in a unique format, such as cards rather than lists
+- [ ] The user can search for items with a specific attribute
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [x] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-<img src='https://github.com/Aashil412/WEB103HW1/blob/main/client/public/Web103_hw1Recording.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
+GIF created with ...  GIF tool here
 LICEcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -45,7 +40,7 @@ LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+No challeneges encountered
 
 ## License
 
